@@ -1,0 +1,65 @@
+.app__master-loading-animation {
+  height: 100vh;
+  transform: translateY(-110vh);
+  
+  animation-duration: 2s;
+  animation-name: slideUpEntry;
+  /*animation: slideUpEntry slideUpExit 4s;*/
+}
+
+.app__masterloading_text-animation {
+  animation-delay: 0.2s;
+  animation-duration: 2s;
+  animation-name: textSlideUpEntry;
+}
+
+@keyframes textSlideUpEntry {
+  /* Entry */
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  45% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  /* Exit */
+  70% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+}
+
+@keyframes slideUpEntry {
+  /* Entry */
+  0% {
+    transform: translateY(100vh);
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+  }
+  40% {
+    transform: translateY(0vh);
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+  }
+  60% {
+    transform: translateY(0vh);
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+  }
+  /* Exit */
+  100% {
+    transform: translateY(-110vh);
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+  }
+}
+

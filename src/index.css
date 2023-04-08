@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,10 +8,18 @@
 
 :root {
   /* fonts */
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-Montserrat: 'Montserrat', sans-serif;
+  --font-Noto: 'Noto Sans', sans-serif;
+  --font-Poppins: 'Poppins', sans-serif;
+  --font-Exo: 'Exo 2', sans-serif;
   
   /* colors */
   --color-white: #ffffff;
+  --color-black: #000000;
+  --color-background: #FBFBFD;
+  --color-brand: #333C46;
+  --color-grey: #373E4A;
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

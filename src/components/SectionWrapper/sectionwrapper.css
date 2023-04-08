@@ -1,0 +1,7 @@
+.app__text {
+  color: rgba(55, 62, 74, 0.8);
+  font-family: var(--font-Montserrat);
+}
+.app__sectionwrapper-line {
+  background-color: rgba(55, 62, 74, 0.8);
+}

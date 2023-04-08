@@ -1,0 +1,12 @@
+.app__brand {
+  font-family: var(--font-Exo);
+}
+.app__nav_button-text {
+  font-family: var(--font-Montserrat);
+}
+.app__nav_button:hover {
+  scale: 1.05;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 12px;
+  transition: all 100ms ease-out;
+}
+

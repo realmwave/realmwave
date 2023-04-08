@@ -1,13 +1,13 @@
 /* eslint-disable react/react-in-jsx-scope */
 
-import Product from "./pages";
+import { AskAi } from "./pages";
 import "./App.css";
 
 
 function App(): JSX.Element {
 	return (
 		<div className="App">
-			<Product />
+			<AskAi />
 		</div>
 	)
 };

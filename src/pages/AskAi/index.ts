@@ -1,7 +1,5 @@
 import AskAi from "./AskAi";
 
 
-export {
-	AskAi,
-};
+export default AskAi;
 

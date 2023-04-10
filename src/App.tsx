@@ -6,7 +6,7 @@ import "./App.css";
 
 function App(): JSX.Element {
 	return (
-		<div className="App">
+		<div className="App overflow-x-hidden">
 			<AskAi />
 		</div>
 	)

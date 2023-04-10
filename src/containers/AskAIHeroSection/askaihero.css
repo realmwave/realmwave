@@ -10,3 +10,35 @@
   box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 12px;
   transition: all 100ms ease-out;
 }
+.app__scroll-indicator {
+  position: absolute;
+  top: 5px;
+  width: 3px;
+  transform: translateX(310%);
+  background-color: var(--color-grey);
+  border-radius: 999rem;
+  animation: scrollDown 1.15s ease-in infinite;
+}
+
+@keyframes scrollDown {
+  0% {
+    top: 10px;
+    height: 4px;
+    opacity: 0;
+  }
+  30% {
+    top: 10px;
+  }
+  50% {
+    height: 10px;
+    opacity: 1;
+  }
+  97% {
+    opacity: 1;
+  }
+  100% {
+    top: 30px;
+    height: 4px;
+    opacity: 0;
+  }
+}

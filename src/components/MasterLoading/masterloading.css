@@ -8,14 +8,14 @@
 }
 
 .app__masterloading_text-animation {
-  animation-delay: 0.2s;
-  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-duration: 1.27s;
   animation-name: textSlideUpEntry;
 }
 
 @keyframes textSlideUpEntry {
   /* Entry */
-  0% {
+  /*0% {
     opacity: 0;
     transform: translateY(100px);
   }
@@ -26,11 +26,15 @@
   45% {
     opacity: 1;
     transform: translateY(0px);
-  }
+  }*/
   /* Exit */
-  70% {
-    opacity: 0;
-    transform: translateY(-100px);
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(0px); 
   }
   100% {
     opacity: 0;
@@ -41,11 +45,16 @@
 @keyframes slideUpEntry {
   /* Entry */
   0% {
-    transform: translateY(100vh);
+    transform: translateY(0vh);
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
   }
-  40% {
+  50% {
+    transform: translateY(0vh);
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;  
+  }
+  /*40% {
     transform: translateY(0vh);
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
@@ -54,7 +63,7 @@
     transform: translateY(0vh);
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
-  }
+  }*/
   /* Exit */
   100% {
     transform: translateY(-110vh);

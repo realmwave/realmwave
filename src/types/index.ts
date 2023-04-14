@@ -4,6 +4,7 @@ import { IShapeProps } from "./ShapeTypes";
 import { ISectionWrapperProps } from "./SectionWrapperTypes";
 import { INavbarModalProps } from "./NavbarModalTypes";
 import { INavbarProps } from "./NavbarTypes";
+import { IAskAIFeatureCardProps } from "./AskAIFeatureCardTypes";
 
 
 export type {
@@ -13,5 +14,6 @@ export type {
 	ISectionWrapperProps,
 	INavbarModalProps,
 	INavbarProps,
+	IAskAIFeatureCardProps,
 };
 

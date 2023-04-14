@@ -3,14 +3,14 @@ import React, { useState } from "react";
 import { AnimatePresence } from "framer-motion";
 
 import { MasterLoading } from "@/components";
-import { Navbar, AskAIHeroSection, AskAIFeedback, NavbarModal } from "@/containers";
+import { Navbar, AskAIHeroSection, NavbarModal, AskAIFeatureSection } from "@/containers";
 
 import "./askai.css";
 
 
 export default function AskAi(): JSX.Element {
 
-	const [isModalVisible, setIsModalVisible] = useState<boolean>(true)
+	const [isModalVisible, setIsModalVisible] = useState<boolean>(false)
 
 	function closeNavbarModal() { setIsModalVisible(false) }
 	function openNavbarModal() { setIsModalVisible(true) }
@@ -23,7 +23,7 @@ export default function AskAi(): JSX.Element {
 			<div className="w-[70%] h-[80%] bg-[#FBFBFD] absolute top-0 right-0 opacity-60" />
 			<div className="app__shape-circle w-[150px] md:w-[200px] lg:w-[250px] aspect-square rounded-full absolute bottom-[34%] md:bottom-[22%] lg:bottom-[15.5%] -left-[9%]" />
 			<AskAIHeroSection />
-			<AskAIFeedback />
+			<AskAIFeatureSection />
 			<AnimatePresence>
 				{isModalVisible && <NavbarModal closeNavbarModal={closeNavbarModal} /> }
 			</AnimatePresence>

@@ -1,0 +1,6 @@
+.app__brand-text {
+  font-family: var(--font-Noto);
+}
+.app__primary-text {
+  font-family: var(--font-Poppins);
+}

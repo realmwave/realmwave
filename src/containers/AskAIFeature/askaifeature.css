@@ -4,3 +4,6 @@
 .app__primary-text {
   font-family: var(--font-Montserrat);
 }
+.app__featurecard-container {
+  background: linear-gradient(#FFFFFF, #f0f0f0, #f0f0f0, #FBFBFD);
+}

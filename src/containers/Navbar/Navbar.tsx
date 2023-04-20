@@ -23,7 +23,7 @@ export default function Navbar({ openNavbarModal }: INavbarProps): JSX.Element {
 			</div>
 			<div className="app__nav_button w-[85px] xs:w-[110px] md:w-[115px] h-[27px] md:h-[35px] flex items-center justify-center gap-1 bg-[var(--color-brand)] rounded-full cursor-pointer z-50" >
 				<IoIosArrowForward className="text-white opacity-60 text-[0.7rem] xs:text-[0.775rem] md:text-[0.8rem]" />
-				<button className="app__nav_button-text text-white text-[0.5rem] xs:text-[0.7rem] md:text-[0.725rem] font-semibold" >Get in touch</button>
+				<p className="app__nav_button-text text-white text-[0.5rem] xs:text-[0.7rem] md:text-[0.725rem] font-semibold" >Get in touch</p>
 			</div>
 		</nav>
 	)
